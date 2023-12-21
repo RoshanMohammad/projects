@@ -1,0 +1,358 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+    font-family: 'Heebo', sans-serif;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+.top:hover{
+    background: #fff;
+    position: relative;
+    height: 110px;
+    transition: 0.3s ease-in;
+    display: bl;
+}
+.top{
+    position: relative;
+}
+.main1 video{
+    position: absolute;
+    object-fit: cover;
+    height: 100vh;
+    width: 100%;
+}
+.main1{
+    display: block;
+}
+.t1 img{
+    float: left;
+    position: relative;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+nav{
+    text-align: center;
+    position: relative;
+    padding-top: 40px;
+}
+nav a{
+    margin-left: 35px;
+    color: #2b0060;
+    font-weight: 600;
+}
+.t3 img{
+    position: relative;
+    float: right;
+    margin-top: -15px;
+    margin-right: 40px;
+}
+.t4{
+    text-align: center;
+    margin-top: 50px;
+}
+.t4 h1{
+    padding-top: 100px;
+    font-size: 62px;
+    text-align: center;
+    color: #fff;
+    position: relative;
+}
+
+.t4 p{
+    text-align: center;
+    font-size: 28px;
+    text-align: center;
+    position: relative;
+    color: #fff;
+}
+.t4 button{
+    margin-top: 50px;
+    position: relative;
+    color: #fff;
+    background: #2b0060;
+    padding: 15px 40px;
+    border-radius: 40px;
+    border: none;
+}
+.t4 button a{
+    color: #fff;
+    font-weight: 600;
+}
+.main2{
+}
+.m1 video{
+    height:110%;
+    width:50%;
+    margin-top: 8px;
+    float: left;
+    margin-top: 250px;
+}
+.cnt{
+    text-align: center;
+
+}
+.m2 video{
+    height:110%;
+    width:50% ;
+    float: left;
+    margin-top: 250px;
+}
+
+.m1 h1{
+    color: #2b0060;
+    line-height: 60px;
+    position:absolute;
+    margin-top: 450px;
+    text-align: center;
+    margin-left: 150px;
+
+}
+
+.m1 button{
+    position:absolute;
+    margin-top: 650px;
+    color: #fff;
+    background: #2b0060;
+    padding: 15px 30px;
+    border-radius: 40px;
+}
+
+.m2 h1{
+   position: absolute;
+   margin-right: 700px;
+}
+
+.m3 video{
+    width: 50%;
+    height: 110%;
+    float: left;
+}
+.m4 video{
+    width: 50%;
+    height: 110%;
+}
+
+.m5{
+    background: url(m.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+    margin-top: -15px;
+
+}
+.main4{
+    background: #000;
+    height: 650px;
+}
+.m6{
+    float: left;
+    width: 50%;
+}
+.m6 h1{
+    margin-top: 150px;
+    margin-left: 50px;
+    font-size: 72px;
+    text-align: left;
+    display: inline-block;
+    color: #fff;
+}
+.m6  p{
+    color: #fff;
+    width: 70%;
+    font-size: 30px;
+    margin-left: 50px;
+}
+.m6 span{
+    font-size:120px;
+    color: #2b0060;
+}
+.m7 img{
+   float: right;
+   margin-right: 40px;
+   margin-top: 100px;
+}
+.m6 button{
+    background:#fff;
+    padding: 15px 45px;
+    border-radius: 40px;
+    border: 2px solid #2b0060;
+    margin-left: 80px;
+}
+
+.m6 button a{
+    color: #2b0060;
+    font-weight: 600;
+}
+
+.m8{
+    background: url(4.png) no-repeat;
+    background-position: left;
+    background-size: cover;
+    height: 505px;
+    width: 570px;
+    float: left;
+}
+.m9{
+    background: url(5.png) no-repeat;
+    background-position: left;
+    background-size: cover;
+    height: 505px;
+    width: 568px;
+    object-fit: cover;
+    float: left;
+}
+.m10{
+    background: url(6.png) no-repeat;
+    background-position: left;
+    background-size: cover;
+    height: 505px;
+    width: 550px;
+    float: right;
+}
+
+.m11{
+    background: url(7.png) no-repeat;
+    background-position: left;
+    background-size: cover;
+    height: 505px;
+    width: 570px;
+    float:left;
+}
+.m12{
+    background: url(8.png) no-repeat;
+    background-position: left;
+    background-size: cover;
+    height: 505px;
+    width: 568px;
+    float:left;
+}
+.m13{
+    background: url(9.png) no-repeat;
+    background-position: left;
+    background-size: cover;
+    height: 505px;
+    width: 550px;
+    float:left;
+}
+
+.m14 p{
+   margin-top:1060px; 
+   font-size: 38px;
+   font-weight: 500;
+   text-align: center;
+}
+.m15{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form input{
+    display: block;
+}
+form input[type=name]{
+    width: 60%;
+    height: 40px;
+    margin-left: 200px;
+    border-radius: 5px;
+    margin-top: 55px;
+    border:1px solid #2b0060;
+}
+form input[type=Lname]{
+    width: 60%;
+    height: 40px;
+    margin-left: 200px;
+    border-radius: 5px;
+    margin-top: 15px;
+    border:1px solid #2b0060;
+}
+form input[type=email]{
+    width: 60%;
+    height: 40px;
+    margin-left: 200px;
+    border-radius: 5px;
+    margin-top: 15px;
+    border:1px solid #2b0060;
+}
+form input[type=title]{
+    width: 60%;
+    height: 40px;
+    margin-left: 200px;
+    border-radius: 5px;
+    margin-top: 15px;
+    border:1px solid #2b0060;
+}
+form input[type=company]{
+    width: 60%;
+    height: 40px;
+    margin-left: 200px;
+    border-radius: 5px;
+    margin-top: 15px;
+    border:1px solid #2b0060;
+}
+form input[type=country]{
+    width: 60%;
+    height: 40px;
+    margin-left: 200px;
+    border-radius: 5px;
+    margin-top: 15px;
+    border:1px solid #2b0060;
+}
+form input[type=message]{
+    width: 60%;
+    height: 40px;
+    margin-left: 200px;
+    border-radius: 5px;
+    margin-top: 15px;
+    border:1px solid #2b0060;
+}
+form input[type=checkbox]{
+    margin-left: 200px;
+    margin-top:25px;
+    display: inline;
+}
+
+form input[type=submit]{
+    margin-left: 400px;
+    margin-top: 50px;
+    background: #2b0060;
+    padding: 15px 70px;
+    border-radius: 40px;
+    border: none;
+    color: #fff;
+    font-size: 22px;
+}
+form p{
+    text-align: center;
+    margin-left: 170px;
+    margin-top: 15px;
+}
+
+.footer{
+    height: 60px;
+    background: #2b0060;
+}
+.cpr h3{
+    float: left;
+    color: #fff;
+    padding-top: 10px;
+}
+.f1{
+    margin-left: 700px;
+    padding-top: 10px;
+}
+.f1 span{
+    color: #fff;
+    margin-left: 50px;
+    font-size: 22px;
+}
+.icons img{
+    float: right;
+    margin-top: -30px;
+}
+.icons img{
+    margin-right: 15px;
+}
