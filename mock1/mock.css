@@ -1,0 +1,313 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.main{
+    background: #ffffff;
+    margin: 0px 0px;
+}
+
+.top-part{  
+    height: 110px;
+    width: auto;
+
+}
+.top-part nav{
+    float: right;
+    margin-right: 10px;
+    margin-top: 50px;
+
+}   
+
+.top-part nav a{
+   text-decoration: none;
+   color: #453592;
+   text-transform: uppercase;
+   margin-right: 25px;
+   
+}
+.d{
+    float: right;
+    text-transform: uppercase;
+    margin-right:120px;
+    background: orangered;
+    border: none;
+    border-radius: 15px;
+    margin-top: 33px;
+    padding: 15px 30px;
+}
+.logo{
+margin-left: 120px;
+margin-top: -5px;
+}
+
+
+.bnr{
+    background: black;
+}
+.bnr img{
+    margin-left: 120px;
+}
+
+.midtext{
+    margin: 0px 0px;
+    height: 240px;
+    width: 100%;
+
+}
+
+.midtext h1{
+    margin-top: 5px;
+    color: #453592;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.midtext p{
+   text-align: center;
+   font-size: 18px;
+   font-weight: 400;
+   margin-top: 13px;
+   font-family: Arial, Helvetica, sans-serif;
+   line-height: 40px;
+}
+
+.gallery{
+    opacity: 0.9;
+    position: relative;
+    background: url(7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 380px;
+    width: 100%;
+}
+.imgcnt{
+    margin-left: 220px;
+}
+.imgcnt img{
+    margin-top: 50px;
+
+}
+
+.gallery img{
+    float: left;
+    height: 205px;
+    width: 270px;
+    margin-left: 60px;
+}
+
+.names  h2{
+    margin-left: 60px;
+    display: inline-block;
+    border: 2px solid white;
+    padding: 20px 64px;
+    text-transform: capitalize;
+    border-radius: 0px 0px 10px 10px;
+    background: white;
+    opacity: 0.5;
+    color: black;
+}
+
+.names h3{
+    margin-left: 60px;
+    display: inline-block;
+    border: 2px solid white;
+    padding: 20px 36px;
+    text-transform: capitalize;
+    font-size: 25px;
+    border-radius: 0px 0px 10px 10px;
+    background: white;
+    opacity: 0.5;
+    color: black;
+}
+.names h4{
+    margin-left: 60px;
+    text-transform: capitalize;
+    display: inline-block;
+    border: 2px solid white;
+    padding: 20px 94px;
+    font-size: 25px;
+    border-radius: 0px 0px 10px 10px;
+    background: white;
+    opacity: 0.5;
+    color: black;
+}
+.mid2{
+    background: #dd9349;
+    height: 295px;
+    width: 100%;
+}
+.mid2 h1{
+    color: white;
+    padding-top: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.mid2 p{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    padding-top: 30px;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 14px;
+    color: white;
+    line-height: 40px;
+}
+.mid2 h2{
+    padding-top: 20px;
+    text-align: center;
+    font-style: italic;
+    color: white;
+    text-transform: capitalize;
+}
+
+.footer{
+    height:240px;
+    width: 100%;
+    background: #3c3d40;
+}
+
+.contact h1{
+    color: white;
+}
+
+.contact p{
+    color:#999a9b;
+} 
+
+.contact{
+    float: left;
+    padding-top: 20px;
+    margin-left: 280px;
+}
+.p1{
+    margin-top: 15px;
+}
+.p2{
+    margin-top: 20px;
+}
+.service{
+    padding-top: 19px;
+}
+.service h1{
+    color: white;
+    padding-left: 626px;
+    display:block;
+}
+.service p{
+    display: inline-block;
+    margin-left: 150px;
+    color:#999a9b ;
+    line-height: 25px;
+    margin-top: 5px;
+}
+span{
+    float: right;
+    margin-left: 35px;
+}
+
+.fom{
+    float: right;
+    
+}
+
+.he{
+    display: inline-block;
+    margin-right: 50px;
+    margin-top: 20px;
+    color: white;
+}
+
+form{
+    height: 100px;
+    width: 150px;
+    margin-top: 20px;
+    margin-right: 310px;
+}
+
+form input{
+    display: block;
+    
+}
+.fom form input[type=name]{
+    color: black;
+    font-weight: 400;
+    width: 300px;
+    padding: 5px 0px;
+    margin-top: 20px;
+    border: 4px groove silver;
+    border-radius: 3px;
+    
+}
+
+.fom form input[type=Email]{
+    width: 300px;
+    font-weight: 400;
+    padding: 5px 0px;
+    margin-top: 20px;
+    border: 4px groove silver;
+    border-radius: 3px;
+    
+}
+
+.fom form input[type=submit]{
+    padding: 8px 15px;
+    margin-top: 25px;
+    border: none;
+    border-radius: 5px;
+    background: #e26c00;   
+}
+
+.cr{
+    height: 67px;
+    width: 100%;
+    background: #e26c00;
+}
+.cr p{
+    color: white;
+    padding-top: 25px;
+    margin-left: 200px;
+}
+
+.cr i{
+    float: right;
+    margin-right: 30px;
+    margin-top: 20px;
+}
+
+
+.cr i[type=f]{
+    color: #ffffff;
+    background: #3a589b;
+    padding: 4px 8px;
+    border-radius: 50%;
+}
+
+.cr i[type=t]{
+    color: #ffffff;
+    background: #598dca;
+    padding: 6px 8px;
+    border-radius: 50%;
+}
+
+.cr i[type=l]{
+    color: #ffffff;
+    background: #007ab9;
+    padding: 6px 8px;
+    border-radius: 50%;
+}
+
+.cr i[type=y]{
+    color:red;
+    background:white;
+    padding: 5px 6px;
+    border-radius: 50%;
+}
+
+@media only screen and (width <= 600px){
+    nav{
+        float: right;
+    }
+    
+}
