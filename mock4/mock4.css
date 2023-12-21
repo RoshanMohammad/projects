@@ -1,0 +1,197 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background:#302e2e;
+    height:auto;
+    width: 100%;
+}
+
+.main{
+    font-family: 'Comic Neue', cursive;
+}
+
+.t0{
+    background: #f7ef90;
+    height: 10px;
+    width: 100%;
+}
+.t1 strong{
+    color: white;
+}
+
+.t1 p{
+    margin-top: 40px;
+    margin-right: 150px;
+    float: right;
+    color: #9b9a92;
+}
+
+.t1 img{
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+.t2 img{
+    margin-top: 30px;
+    margin-left: 200px;
+}
+
+.t2 ul li {
+    position: absolute;
+     margin-top: 48px;
+     margin-left: 200px;  
+     list-style: none; 
+}
+
+.t2 ul li a{
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+    font-weight: 900;
+}
+
+.t2 ul li a[type=home]{
+    border-bottom: 2px solid #f7ef90;
+}
+
+.t3 img{
+    margin-left: 200px;
+    margin-top: 50px;
+}
+
+.t4{
+    text-align: center;
+    margin-top: 30px;
+}
+.t4 h1{
+    color: #fff;
+    font-size: 26px;
+}
+.t4 p{
+    margin-top: 30px;
+    color: #fff;
+    font-size: 24px;
+}
+
+.m1{
+    margin-top: 50px;
+    margin-left: 200px;
+    height: 1.5px;
+    width: 1120px;
+    border-bottom: 2px solid white;
+}
+.m2 .img2{
+    margin-top: 50px;
+    margin-left: 180px;
+}
+.img2 img{
+    margin-left: 10px;
+}
+.img2 h2{
+    color:#fff;
+    text-align: center;
+    float: left;
+    font-size: 22px;
+    margin-left: 20px;
+    font-family:'Times New Roman', Times, serif;
+}
+.img2 .h{
+    margin-left: 50px;
+}
+.img2 .i{
+    margin-left: 50px;
+}
+
+.m3{
+    width: 1120px;
+    border: 1.5px solid #fff;
+    float: left;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+
+.m4 img{
+    float: left;
+    margin-top: 30px;
+    margin-left: 200px;
+}
+
+.m4 .n{ 
+    float: left;
+    color: #fff;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.form{
+    margin-top: 40px;
+}
+
+.form input{
+    display: block;
+    margin-left: 100px;
+    border: 1px dashed black;
+    border-radius: 50px;
+    padding: 10px 100px;
+    text-align: left;
+}
+.form input[type=text]{
+    border-radius: 20px;
+    padding: 60px 100px;
+}
+.form input[type=submit]{
+    margin-top: 15px;
+    padding: 10px 50px;
+    background: #f7ef90;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.n .form .l{
+    padding-top: 20px;
+    margin-left: 10px;
+}
+.m h2{
+    float: left;
+    color: #9b9a92;
+    font-size: 16px;
+    margin-left: 200px;
+    margin-top: 10px;
+}
+
+.m5{
+    border: 1.5px solid #fff;
+    width: 1120px;
+    margin-left: 200px;
+    float: left;
+    margin-top: 50px; 
+}
+.footer{
+
+}
+
+.f1 h2{
+    float: left;
+    text-align: center;
+    font-style: italic;
+    margin-left: 500px;
+    margin-top: 20px;
+    font-size: 18px;
+    color: #9b9a92;
+}
+
+.f2 img{
+    margin-top: 50px;
+    margin-left: 220px;
+}
+
+.f3{
+    margin-top: 100px;
+    height:10px;
+    width: 100%;
+    background: #f7ef90;
+}
