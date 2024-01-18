@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="task5.css">
+    <title>task5</title>
+</head>
+<body>
+    <div class="main">
+        <div class="input">
+            <input type="text" id="input" placeholder="search.....">
+            <input type="submit" value="search" id="searchbtn">
+        </div>  
+        <div class="container">
+            <p id="findit">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio eos consequuntur deleniti? Libero illo voluptatibus esse perferendis amet totam vel, non sequi commodi qui quasi et quod. Quo, quis veniam.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio eos consequuntur deleniti? Libero illo voluptatibus esse perferendis amet totam vel, non sequi commodi qui quasi et quod. Quo, quis veniam.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio eos consequuntur deleniti? Libero illo voluptatibus esse perferendis amet totam vel, non sequi commodi qui quasi et quod. Quo, quis veniam.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio eos consequuntur deleniti? Libero illo voluptatibus esse perferendis amet totam vel, non sequi commodi qui quasi et quod. Quo, quis veniam.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio eos consequuntur deleniti? Libero illo voluptatibus esse perferendis amet totam vel, non sequi commodi qui quasi et quod. Quo, quis veniam.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio eos consequuntur deleniti? Libero illo voluptatibus esse perferendis amet totam vel, non sequi commodi qui quasi et quod. Quo, quis veniam.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio eos consequuntur deleniti? Libero illo voluptatibus esse perferendis amet totam vel, non sequi commodi qui quasi et quod. Quo, quis veniam.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio eos consequuntur deleniti? Libero illo voluptatibus esse perferendis amet totam vel, non sequi commodi qui quasi et quod. Quo, quis veniam.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio eos consequuntur deleniti? Libero illo voluptatibus esse perferendis amet totam vel, non sequi commodi qui quasi et quod. Quo, quis veniam.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio eos consequuntur deleniti? Libero illo voluptatibus esse perferendis amet totam vel, non sequi commodi qui quasi et quod. Quo, quis veniam.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio eos consequuntur deleniti? Libero illo voluptatibus esse perferendis amet totam vel, non sequi commodi qui quasi et quod. Quo, quis veniam.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio eos consequuntur deleniti? Libero illo voluptatibus esse perferendis amet totam vel, non sequi commodi qui quasi et quod. Quo, quis veniam.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio eos consequuntur deleniti? Libero illo voluptatibus esse perferendis amet totam vel, non sequi commodi qui quasi et quod. Quo, quis veniam.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio eos consequuntur deleniti? Libero illo voluptatibus esse perferendis amet totam vel, non sequi commodi qui quasi et quod. Quo, quis veniam.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio eos consequuntur deleniti? Libero illo voluptatibus esse perferendis amet totam vel, non sequi commodi qui quasi et quod. Quo, quis veniam.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio eos consequuntur deleniti? Libero illo voluptatibus esse perferendis amet totam vel, non sequi commodi qui quasi et quod. Quo, quis veniam.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio eos consequuntur deleniti? Libero illo voluptatibus esse perferendis amet totam vel, non sequi commodi qui quasi et quod. Quo, quis veniam.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio eos consequuntur deleniti? Libero illo voluptatibus esse perferendis amet totam vel, non sequi commodi qui quasi et quod. Quo, quis veniam.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio eos consequuntur deleniti? Libero illo voluptatibus esse perferendis
+            </p>
+        </div>
+    </div>
+    <script>
+  var findit=document.getElementById("findit");
+  var searchbtn = document.getElementById("searchbtn");
+  
+  searchbtn.addEventListener("click",() => {
+    let input = document.getElementById("input").value;
+
+    if(input !== ""){
+         let reg = new RegExp(input,"gi")
+         findit.innerHTML = findit.textContent.replace(reg,"<mark>$&</mark>");
+    }
+  });
+
+</script>
+</body>
+</html>

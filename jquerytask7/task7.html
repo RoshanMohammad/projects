@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="task7.css">
+    <title>task7</title>
+</head>
+<body>
+    <div class="main">
+        <div class="box">
+            <h4><u>List your work</u> &#128511;</h4>
+            <div class="input">
+                <input type="text" id="input" placeholder="add your task.....">
+                <button onclick="task()">ADD</button>
+            </div>
+            <ul id="list">
+                
+            </ul>
+
+        </div>
+    </div>
+    <script>
+        var input = document.getElementById("input");
+        var list = document.getElementById("list");
+
+        function task(){
+        if(input.value === ''){
+            alert("you have to write something");
+        }else{
+            let li = document.createElement("li");
+            li.innerHTML = input.value;
+            list.appendChild(li);
+            let span = document.createElement("span");
+            span.innerHTML= "\u00d7";
+            li.appendChild(span);
+            save();
+        }
+        input.value="";
+    
+    }
+
+    list.addEventListener("click",function(e){        
+        if(e.target.tagname == "SPAN"){
+            e.target.parentElement.remove();
+    
+        } 
+        },false);
+    
+    function save(){
+        localStorage.setItem("data",list.innerHTML);
+    }
+    function saved(){
+        list.innerHTML=localStorage.getItem("data");
+    }
+    saved();
+    </script>
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="task3.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <title>task3</title>
+</head>
+<body> 
+<div class="main">
+    <button id="button">CLICK ME</button>
+    <div class="popup" id="pop">
+        <div class="header">
+            <h1>TIME</h1>
+        </div>
+        <div class="mid">
+            <span id="hrs">00</span>
+            <span>:</span>
+            <span id="min">00</span>
+            <span>:</span>
+            <span id="sec">00</span>
+        </div>
+    </div>
+</div>  
+<script>
+        let button = document.getElementById("button")
+        button.addEventListener("mouseover",move)
+
+        function move(){
+        var i = Math.floor(Math.random()*1300) + 1;
+        var j = Math.floor(Math.random()*500) + 1;
+            
+        button.style.left = i + "px"
+        button.style.top  = j + "px"
+    }
+
+   var hrs = document.getElementById("hrs");
+   var min = document.getElementById("min");
+   var sec = document.getElementById("sec");
+   
+   setInterval(() => {
+    let currenttime = new Date();
+
+   hrs.innerHTML =currenttime.getHours();
+   min.innerHTML =currenttime.getMinutes();
+   sec.innerHTML =currenttime.getSeconds();
+ 
+   }, 1000);
+
+$(function(){
+    $("#button").click(function(){
+      $("#pop").fadeToggle();
+    });
+});
+
+</script>        
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="task2.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <title>task</title>
+</head>
+<body>
+    <div class="main">
+        <div class="mobile">
+            <div class="screen">
+              <input type="text" id="msg" placeholder="SEND MESSAGE.....">
+            </div>
+            <div class="touch">
+               <button id="btn" ></button>
+            </div>
+        </div>
+    </div>
+<script>
+    $(document).ready(function(){
+        $("#btn").click(function(){
+            $("#msg").slideToggle();
+        });
+    });
+    $(document).ready(function(){
+        $("#btn").dblclick(function(){
+            alert("Your Message has been sent")
+            $("#msg").hide("text");
+        });
+    });
+</script>
+</body>
+</html>

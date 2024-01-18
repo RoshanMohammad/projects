@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    background:url(bg.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    transform: rotateX0(180deg);
+}
+
+button img{
+    height: 150px;
+    width: 100px;
+}
+.ani img{
+    margin-top: 350px;
+    float: right;
+    height: 150px;
+    width: 150px;
+}
+button{
+    height: 80px;
+    width: 150px;
+    border: none;
+    color: #fff;
+    border-radius: 10px;
+    background: red;
+    font-size: 30px;
+    float: left;
+    margin-top: 330px;
+    margin-left: 50px;
+}
+.star{
+    float: left;
+    background: #000;
+    height: 150px;
+    width: 150px;
+    mix-blend-mode: color-burn;
+    /* background: url(chakra.jpeg)no-repeat; */
+    clip-path: polygon(86% 46%, 81% 39%, 100% 49%, 82% 57%, 86% 50%, 19% 50%, 0 60%, 10% 49%, 0% 35%, 18% 46%);
+    /* clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);    */
+    margin-top: 290px;
+    margin-left: 20px;   
+   
+}
+button:active{
+    scale: 0.8;
+    transition: 0.1s;
+}
+.spin:hover .star{
+    animation:motion 3s cubic-bezier(0.96,-1.08, 1, 0.27) 1 forwards;
+ }/*spin 0.1s infinite  */
+.spin:hover .star{
+    scale: 0.9;
+    transition: 0.1s;
+}
+.box{
+background: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+    margin-top: 70px;
+    margin-right:50px ;
+    float: right;
+    height: 600px;
+    width: 400px;
+    border: 2px solid #000;
+    border-radius: 10px;
+}
+
+/* @keyframes spin {
+    0%{
+          transform: rotate(0deg);/*translateY(0px); 
+    }
+    100%{
+         transform:rotate(360deg);/*translateY(600px);
+    }
+} */
+@keyframes motion{
+    0%{
+        transform: translateX(0px)  ;
+    }
+    100%{
+        transform: translateX(1300px) ;
+    }
+}
+
+h1{
+    font-family: Arial;
+    text-align: justify;
+    font-size: 30px;
+    width: 90%;
+    text-transform: capitalize;
+    margin-left: 15px;
+    margin-top: 25px;
+    position: relative;
+    animation:txt 8s forwards; 
+    overflow: hidden;
+}
+@keyframes txt{
+    0%{
+        height: 0%;
+      opacity: 0;
+    }
+    50%{
+        height: 0%;
+        opacity: 0.3;
+    }
+    100%{
+        height: 100%;
+        opacity: 1;
+    }
+}

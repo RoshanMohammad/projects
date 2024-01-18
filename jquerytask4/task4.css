@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.names{
+    height: 400px;
+    width: 300px;
+    border: 2px solid #000;
+    border-radius: 10px;
+}
+
+.pie-chart {
+    background:
+        radial-gradient(circle closest-side,transparent 100%,white 0),
+        conic-gradient(
+            from 211deg,
+            #4e79a7 0,
+            #4e79a7 38%,
+            #f28e2c 0,
+            #f28e2c 61%,
+            #e15759 0,
+            #e15759 77%,
+            #76b7b2 0,
+            #76b7b2 87%,
+            #59a14f 0,
+            #59a14f 93%,
+            #edc949 0,
+            #edc949 100%
+    );
+    position: relative;
+    width: 600px;
+    min-height: 350px;
+}
+
+.pie-chart:hover{
+    animation: cover 2s linear 1 forwards;
+    scale: 1.2;
+    transition: all 0.5s ;
+}
+span{
+    float:right;
+    margin-right:10px;
+    color: #000;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -20px;
+ }
+
+.chart h4{
+    margin-top: 10px;
+}
+
+@keyframes cover {
+    0%{ 
+         transform:rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}

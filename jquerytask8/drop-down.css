@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background: url(bg.avif)no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.first{
+    margin-left: 100px;
+    height: 50vh;
+    width: 300px;
+    border-radius: 1rem;
+    box-shadow:inset 0px 0px 10px #ffffff25,inset 0px 0px 10px #ffffff25;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ffffff20;
+    
+}
+.first ul{
+    position: absolute;
+    list-style: none;
+}
+.first ul li{
+    line-height: 60px;
+    font-size: 25px;
+    width: 300px;
+    text-align: center;
+    border-bottom: 1px solid #fff;
+}
+.first ul li:nth-child(6){
+    border-bottom: none;
+}
+
+.first ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+.first ul li:hover .sec{
+   display: block;
+}
+.sec{
+    display: none;
+    position: relative;
+    left: 100%;
+    top: -60px;
+    
+}
+.sec ul{
+    height: 250px;
+    box-shadow:inset 0px 0px 10px #ffffff51,inset 0px 0px 10px #ffffff51;
+    transition:all 1s ease;
+    background: #ffffff32;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+.sec ul li{
+    width: 300px;
+    border-bottom: 1px solid #fff;
+}
+.sec ul li:nth-child(4){
+    border-bottom: none;
+}
+.sec ul li:hover .third{
+    display: block;
+}
+.third{
+    display: none;
+    position: relative;
+    left: 100%;
+    top: -60px;
+    
+}
+.third ul{
+    height: 180px;
+    box-shadow:inset 0px 0px 10px #ffffff51,inset 0px 0px 10px #ffffff51;
+    background: #ffffff32;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+.third ul li:nth-child(3){
+    border-bottom: none;
+}
+.fourth{
+    display: none;
+    position: relative;
+    left: 100%;
+    box-shadow:inset 0px 0px 10px #ffffff51,inset 0px 0px 10px #ffffff51;
+    top: -60px;
+    
+}
+.fourth ul{
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+
+.third ul li:hover .fourth{
+    display: block;
+}
